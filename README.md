@@ -8,11 +8,11 @@
 
 * Let's understand our folder structure.
 
-  *  **RawData** -> Consists of two main folders named "Train" and "Valid." Each of these folders contains several YouTube Reels that will be utilized to create the data required for our object detection task.
+  *  **<font color="red">RawData</font>** -> Consists of two main folders named "Train" and "Valid." Each of these folders contains several YouTube Reels that will be utilized to create the data required for our object detection task.
   
-  * **Logos** -> Contains three logos that are identical except for the color of the circle surrounding each logo. (shown in below Image)
+  * **<font color="red">Logos</font>** -> Contains three logos that are identical except for the color of the circle surrounding each logo. (shown in below Image)
   
-  * **Data** -> At the beginning of this notebook, the folder is empty. However, by the end of the notebook, it will be populated with the generated data for our object detection task. The data will be derived from the "Train" and "Valid" folders within the "RawData" directory, and the generated data will then be organized into corresponding "Train" and "Valid" folders in this directory.
+  * **<font color="red">Data</font>**  -> At the beginning of this notebook, the folder is empty. However, by the end of the notebook, it will be populated with the generated data for our object detection task. The data will be derived from the "Train" and "Valid" folders within the "RawData" directory, and the generated data will then be organized into corresponding "Train" and "Valid" folders in this directory.
 
 ## Task Description
 
@@ -37,7 +37,7 @@ The objective is to detect the Red logo within the frame while excluding the Gre
 2. Select a Random Frame.
 3. Reads the Blue/Green LOGO and adds some augmentation to it.
 4. Paste it randomly on the Frame selected in Step-2.
-5. Save the Image **<font color='red'>but not the Bounding Box</font>**.
+5. Save the Image **<font color="red">but not the Bounding Box</font>** .
 6. Do this a number of times for each video.
 7. Do this for all the Videos.
 
