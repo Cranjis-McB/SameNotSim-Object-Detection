@@ -33,12 +33,6 @@ The objective is to detect the Red logo within the frame while excluding the Gre
 
 **Additionally** (To avoid Detecting Blue and Green Logos.)
 
-1. Process the one Video from RAW_DIR.
-2. Select a Random Frame.
-3. Reads the Blue/Green LOGO and adds some augmentation to it.
-4. Paste it randomly on the Frame selected in Step-2.
-5. Save the Image **<font color="red">but not the Bounding Box</font>** .
-6. Do this a number of times for each video.
-7. Do this for all the Videos.
+After step-4 above, paste the Blue/Green Logo randomly with some probability  **<font color="red">but DO NOT store the Bounding Box for it.</font>**.
 
 **By employing this approach, the model will be trained to selectively focus on detecting the red logo while disregarding the blue and green logos during the detection process.**
