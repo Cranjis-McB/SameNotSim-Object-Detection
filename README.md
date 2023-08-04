@@ -18,5 +18,6 @@
 
 The objective is to detect the Red logo within the frame while excluding the Green and Blue logos from the detection process.
 
-![Alt Text](https://github.com/Cranjis-McB/SameNotSim-Object-Detection/blob/main/three_logo_img.png)
+
+<img src="https://github.com/Cranjis-McB/SameNotSim-Object-Detection/blob/main/three_logo_img.png" alt="Picture" height = "250" width="250">
 
