@@ -6,10 +6,10 @@
 
 * We are developing an end-to-end pipeline for a specific object detection task.
 
- * **DataGeneration**: This notebook (to be uploaded) serves as the initial step, In this notebook, we aim to **generate data** for our object detection task from the raw data.
- * **cv_augmentations**: This notebook (to be uploaded) contains different types of augmentations to be done on the object (Logo) during data generation. (This will add robustness to our detection model.)
- * **Model_Training**: This notebook shows how to Train our detection model and use Various Data augmentation during Training.
- * **Model_Inference**: How to use the model for inference.
+  * **DataGeneration**: This notebook (to be uploaded) serves as the initial step, In this notebook, we aim to **generate data** for our object detection task from the raw data.
+  * **cv_augmentations**: This notebook (to be uploaded) contains different types of augmentations to be done on the object (Logo) during data generation. (This will add robustness to our detection model.)
+  * **Model_Training**: This notebook shows how to Train our detection model and use Various Data augmentation during Training.
+  * **Model_Inference**: How to use the model for inference.
 
 * Let's understand our folder structure.
 
