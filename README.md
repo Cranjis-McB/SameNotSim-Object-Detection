@@ -4,7 +4,7 @@
 
 * The ultimate objective is to detect a specific type of object within a frame. However, there are a few objects in the scene that possess a similar appearance to our target object, and our goal is to exclude or avoid detecting those similar-looking objects.
 
-* We are developing an end-to-end pipeline for a specific object detection task.
+* We are developing an end-to-end pipeline for a specific object detection task. This project contains 4 Notebooks namely:
 
   * **DataGeneration**: This notebook (to be uploaded) serves as the initial step, In this notebook, we aim to **generate data** for our object detection task from the raw data.
   * **cv_augmentations**: This notebook (to be uploaded) contains different types of augmentations to be done on the object (Logo) during data generation. (This will add robustness to our detection model.)
