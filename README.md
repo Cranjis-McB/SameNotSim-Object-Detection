@@ -40,6 +40,6 @@ The objective is to detect the Red logo within the frame while excluding the Gre
 
 **Additionally** (To avoid Detecting Blue and Green Logos.)
 
-After step-4 above, paste the Blue/Green Logo randomly with some probability  **<font color="red">but DO NOT store the Bounding Box for it.</font>**.
+After step-4 above, paste the Blue/Green Logo randomly with some probability  **<font color="red">but DO NOT store the Bounding Box for it</font>**.
 
 **By employing this approach, the model will be trained to selectively focus on detecting the red logo while disregarding the blue and green logos during the detection process.**
