@@ -4,6 +4,8 @@
 
 * The ultimate objective is to detect a specific type of object within a frame. However, there are a few objects in the scene that possess a similar appearance to our target object, and our goal is to exclude or avoid detecting those similar-looking objects.
 
+## Project Notebooks
+
 * We are developing an end-to-end pipeline for a specific object detection task. This project contains 4 Notebooks namely:
 
   * **DataGeneration**: This notebook (to be uploaded) serves as the initial step, In this notebook, we aim to **generate data** for our object detection task from the raw data.
@@ -11,7 +13,7 @@
   * **Model_Training**: This notebook shows how to Train our detection model and use Various Data augmentation during Training.
   * **Model_Inference**: How to use the model for inference.
 
-* Let's understand our folder structure.
+## Folder Information
 
   *  **<font color="red">RawData</font>** -> Consists of two main folders named "Train" and "Valid." Each of these folders contains several YouTube Reels that will be utilized to create the data required for our object detection task.
   
